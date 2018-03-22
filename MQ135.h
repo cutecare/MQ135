@@ -37,8 +37,8 @@ v1.0 - First release
 class MQ135 {
  private:
   uint8_t _pin;
-  float rLoad;
-  float rZero;
+  float _rLoad;
+  float _rZero;
 
  public:
   MQ135(uint8_t pin, float rLoad, float rZero);
